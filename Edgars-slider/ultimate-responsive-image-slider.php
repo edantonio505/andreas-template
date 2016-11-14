@@ -355,7 +355,7 @@ class WRIS {
 								</p>
 								<p>
 									<label><?php _e('Picture Url Link', WRIS_TEXT_DOMAIN); ?></label>
-									<input type="text" id="rpgp_image_desc[]" name="rpgp_image_desc[]" placeholder="<?php _e('Enter Slide Description', WRIS_TEXT_DOMAIN); ?>" class="rpg_label_text" value="<?php echo esc_attr( $desc ); ?>" />
+									<input type="text" id="rpgp_image_desc[]" name="rpgp_image_desc[]" placeholder="<?php _e('Enter Picture Link', WRIS_TEXT_DOMAIN); ?>" class="rpg_label_text" value="<?php echo esc_attr( $desc ); ?>" />
 								</p>
 							</div>
 						</li>
@@ -410,13 +410,12 @@ class WRIS {
 				<input type="text" id="rpgp_image_url[]" name="rpgp_image_url[]" class="rpg_label_text"  value="<?php echo esc_url( $image[0] ); ?>"  readonly="readonly" style="display:none;" />
 				<input type="text" id="rpggallery_admin_thumb[]" name="rpggallery_admin_thumb[]" class="rpg_label_text"  value="<?php echo esc_url( $image1[0] ); ?>"  readonly="readonly" style="display:none;" />
 				<input type="text" id="rpggallery_admin_large[]" name="rpggallery_admin_large[]" class="rpg_label_text"  value="<?php echo esc_url( $image3[0] ); ?>"  readonly="readonly" style="display:none;" />
+				
 				<p>
-					<label><?php _e('Slide Title', WRIS_TEXT_DOMAIN); ?></label>
-					<input type="text" id="rpgp_image_label[]" name="rpgp_image_label[]" placeholder="<?php _e('Enter Slide Title Here', WRIS_TEXT_DOMAIN); ?>" class="rpg_label_text">
-				</p>
-				<p>
-					<label><?php _e('Slide Description', WRIS_TEXT_DOMAIN); ?></label>
-					<textarea rows="4" cols="50" id="rpgp_image_desc[]" name="rpgp_image_desc[]" placeholder="<?php _e('Enter Slide Description Here', WRIS_TEXT_DOMAIN); ?>" class="rpg_label_text"></textarea>
+					<label><?php _e('Picture Url Link', WRIS_TEXT_DOMAIN); ?></label>
+					<input type="text" id="rpgp_image_desc[]" class="rpg_label_text" name="rpgp_image_desc[]" placeholder="Enter Pictrue Link Here"
+/>
+
 				</p>
 			</div>
 		</li>
