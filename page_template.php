@@ -3,6 +3,7 @@
 <html>
 <head>
 	<title><?php wp_title(); ?></title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slider-pro/1.3.0/css/slider-pro.min.css">
 	<style type="text/css">
 		*,body {
@@ -35,12 +36,17 @@
 		.menu-primary-container li{
 			display: inline-block;
 			margin:10px;
-			font-family: Arial;
+			font-family: 'Source Sans Pro', sans-serif;
 		}
 
 		.menu-primary-container a {
 			color:white;
 			text-shadow: 0px 0px 10px black;
+		}
+
+		.menu-primary-container a:hover {
+			transition-duration: 0.5s;
+			color:#00E5EE;
 		}
 
 		.inner-container {
@@ -79,7 +85,7 @@
 
 		.footer_container {
 			width:100%;
-			background-color: black;
+			background-color: #444444;
 		}
 
 		.sp-slide p {
@@ -104,3 +110,7 @@
 	    	<?php wp_nav_menu(['menu'=> 'new_footer']);?>
 	    </div>
 <?php wp_footer(); ?> 
+
+
+
+
