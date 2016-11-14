@@ -40,6 +40,7 @@
 
 		.menu-primary-container a {
 			color:white;
+			text-shadow: 0px 0px 10px black;
 		}
 
 		.inner-container {
